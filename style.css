@@ -528,8 +528,13 @@ header .desckotop-menu  div .select select{
     border-radius: 50%;
     background: #000;
     color: rgb(189, 189, 189);
-   
+    transition: .5s;
 }
+.links i:hover{
+    background: #e4d804;
+    color: #000;
+}
+
 .footer{
     background: #171b22;
     padding: 2rem 0;
@@ -759,6 +764,7 @@ header .desckotop-menu  div .select select{
 
     
 }
+
 .div1{
     padding: 3rem 1rem;
 }
