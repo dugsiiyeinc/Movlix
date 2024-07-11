@@ -556,13 +556,13 @@ li{
     .mobile-menu[data-visible="false"]{
         display: none;
  }
+ .hamburger i[data-visible="true"]{
+    display: block;
+}
 
-    .humbarger i[data-visible="true"]{
-        display: block;
-    }
-    .humbarger i[data-visible="false"]{
-        display: none;
-    }
+.hamburger i[data-visible="false"]{
+    display: none;
+}
     
 }
 
