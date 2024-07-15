@@ -14,6 +14,10 @@ img{
     width: 100%;
     /* height: 100%; */
 }
+
+body{
+    background-color: #1f1e24;
+}
 .hero{
     background:url(/img/banner_bg01.jpg);
     height: 100vh;
@@ -392,8 +396,9 @@ header .desckotop-menu  div .select select{
     align-items: center;
   
 }
-.hd-4k .container .top3 p{
-    color: #18181e;
+
+.hd-4k .container .top3 p, .our-servives{
+    color: #ffffff;
 }
 .hd-4k .container .top3 .content3 div{
     display: flex;
@@ -406,6 +411,10 @@ header .desckotop-menu  div .select select{
 
 .hd-4k .container .top3 .content3 h1{
     font-size: 2rem !important;
+}
+
+.hd-4k .container .top3 .content3 .active-customer{
+    color: #fff;
 }
 .hd-4k .container .top3 .btn{
     background: #e4d804;
@@ -862,7 +871,7 @@ a{
 }
 
 .movie-hero-bg{
-    padding: 1.875rem 0 15rem;
+    padding: 0 0 19rem;
     background-position: center;
     background-size: cover;
     z-index: 1;
@@ -895,7 +904,7 @@ a{
     line-height: 1.3;
     margin-bottom: 0.5rem;
     color: #fff;
-    margin-top: 11%;
+    margin-top: 20%;
     
 }
 .movie-hero-title span{
@@ -1326,7 +1335,7 @@ a{
 
 
  .pricing-hero-bg{
-    padding: 1.875rem 0 15rem;
+    padding: 0 0 19rem;
     background-position: center;
     background-size: cover;
     position: relative;
@@ -1335,7 +1344,7 @@ a{
 
 .pricing-hero-content{
     text-align: center;
-    margin-top: 12%;
+    margin-top: 20%;
 }
 .pricing-hero-content .pricing-hero-title{
     font-size: 3.75rem;
