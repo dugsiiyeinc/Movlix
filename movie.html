@@ -8,6 +8,86 @@
     <title>Movie</title>
 </head>
 <body>
+
+    <section class="hero">
+        
+        <div class="header">
+            <header class="container">
+                <div class="logo">
+                    <img src="https://themebeyond.com/html/movflx/img/logo/logo.png" alt="">
+                </div>
+                   <!-- desckotop-menu -->
+               <div class="desckotop-menu">
+                  <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="#">MOVE</a></li>
+                    <li><a href="">PRICING</a></li>
+                    <li><a href="l">CONTACTS</a></li>
+                  </ul> 
+        
+                  <div>
+                    <div class="select">
+                    <i class='bx bx-globe'></i>
+                    <select >
+                       
+                        <option value="1">EN</option>
+                        <option value="2">AU</option>
+                        <option value="3">AR</option>
+                    </select>
+                </div>
+                  <BUtton class="menu-btn btn">SING IN </BUtton>      
+                </div>
+               </div>
+        
+        
+               <!-- humbarger -->
+                <div class="humbarger">
+                    <i class='bx bx-menu' data-visible="true"></i>
+                    <i class='bx bx-x' data-visible="false"></i>
+                
+                </div>
+             
+            </header>
+        </div>
+    
+    
+    
+        <div class=" mobile-menu " data-visible="false">
+            <ul>
+              <li><a href="index.html">HOME</a></li>
+              <li><a href="movie.html">MOVE</a></li>
+              <li><a href="pricing.html">PRICING</a></li>
+              <li><a href="contact.html">CONTACTS</a></li>
+            </ul> 
+    
+            <div>
+              <div class="select">
+              <i class='bx bx-globe'></i>
+              <select >
+                 
+                  <option value="1">EN</option>
+                  <option value="2">AU</option>
+                  <option value="3">AR</option>
+              </select>
+          </div>
+            <BUtton class="menu-btn btn">SING IN </BUtton>      
+          </div>
+         </div>
+            <div class="container">
+                <div class="cont">
+                    <h2>Contact Us</h2>
+                    <nav class="bar">
+                        <ol>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href=">#">contact</a></li>
+                        </ol>
+                    </nav>
+                </div>
+            </div>
+        </section>
+
+
+
     <div class="main">
         <section class="movie-hero movie-hero-bg"><!-- Movie-Hero-section-starts-here -->
             <div class="container">
@@ -19,7 +99,7 @@
                             </h2>
                             <nav class="movie-hero-nav">
                                 <ol class="movie-hero-nav-list">
-                                    <li class="movie-hero-nav-items"> <a href="#">Home</a> </li>
+                                    <li class="movie-hero-nav-items"> <a href="index.html">Home</a> </li>
                                     <li class="movie-hero-nav-items">Movie</li>
                                 </ol>
                             </nav>
@@ -447,5 +527,85 @@
         </section>
         
     </div>
+    <footer class="bar">
+        <div class="countainer">
+         <div class="header">
+             <div class="nav">
+                 <div class="pr">
+                     <a href="index.html">
+                 <img src="https://themebeyond.com/html/movflx/img/logo/logo.png" alt="logo" >
+                
+                     </a>
+                 </div>
+               <nav>
+                 <ul>
+                     <li><a href="index.html">home</a></li>
+                     <li><a href="#">movie</a></li>
+                     <li><a href="#">pricing</a></li>
+                     <li><a href="#">contact</a></li>
+                 </ul>
+                  <div class="sear">
+             <input type="email" placeholder="enter your email">
+             <button>
+                 <i class="fas fa-search"></i>
+             </button>
+             </div>
+               </nav>
+             </div>
+         </div>
+         <div class="foot-link">
+             <ul>
+                 <li><a href="#">FAQ</a></li>
+                 <li><a href="#">Help Center</a></li>
+                 <li><a href="#">Terms of Use</a></li>
+                 <li><a href="#">Privacy</a></li>
+             </ul>
+             <div class="col-md-5">
+                     <ul>
+                         <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                         <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                         <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
+                         <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                     </ul>
+             </div>
+         </div>
+        </div>
+        <div class="copyright-wrap">
+         <div class="container">
+             <div class="row">
+                 <div class="col-lg-6 col-md-6">
+                     <div class="copyright-text">
+                         <p>Copyright © 2021. All Rights Reserved By <a href="index.html">Movflx</a></p>
+                     </div>
+                 </div>
+                 <div class="foot-img">
+                     <img src="https://themebeyond.com/html/movflx/img/images/card_img.png" alt="img">
+                 </div>
+             </div>
+         </div>
+     </div>
+    </footer>
+
+
+    <script>
+        const hamburger = document.querySelector('.humbarger');
+            const mobileMenu = document.querySelector(".mobile-menu");
+            const icons = document.querySelectorAll("i");
+    
+            hamburger.addEventListener("click", function (event) {
+                const isVisible = mobileMenu.getAttribute('data-visible');
+                if (isVisible == "true") {
+                    // qari hiding
+                    mobileMenu.setAttribute('data-visible', "false");
+                    icons[0].setAttribute('data-visible', "true");
+                    icons[1].setAttribute('data-visible', "false");
+                } else if (isVisible == "false") {
+                    // soo bandhig showing
+                    mobileMenu.setAttribute('data-visible', "true");
+                    icons[0].setAttribute('data-visible', "false");
+                    icons[1].setAttribute('data-visible', "true");
+                }
+            });
+      </script>
 </body>
 </html>
