@@ -847,10 +847,7 @@ li{
 a{
     text-decoration: none;
 }
-body{
-    /* background-color: #18171f; */
-    
-}
+
 .main{
     display: flex;
     flex-direction: column;
@@ -865,11 +862,11 @@ body{
 }
 
 .movie-hero-bg{
-    padding: 16.875rem 0 15rem;
+    padding: 1.875rem 0 15rem;
     background-position: center;
     background-size: cover;
     z-index: 1;
-    height: auto;
+    /* height: auto; */
 }
 
 .container{
@@ -898,7 +895,7 @@ body{
     line-height: 1.3;
     margin-bottom: 0.5rem;
     color: #fff;
-    margin-top: 0px;
+    margin-top: 11%;
     
 }
 .movie-hero-title span{
@@ -1156,7 +1153,7 @@ body{
     text-decoration: none;
     
 }
-.overlay-btn .btn{
+.overlay-btn .btns{
     color: #010000;
     background-color: #e4d804;
     padding: 5px 25px 5px 25px;
@@ -1329,7 +1326,7 @@ a{
 
 
  .pricing-hero-bg{
-    padding: 16.875rem 0 15rem;
+    padding: 1.875rem 0 15rem;
     background-position: center;
     background-size: cover;
     position: relative;
@@ -1338,6 +1335,7 @@ a{
 
 .pricing-hero-content{
     text-align: center;
+    margin-top: 12%;
 }
 .pricing-hero-content .pricing-hero-title{
     font-size: 3.75rem;
@@ -1575,6 +1573,24 @@ a{
   }
 /* Pricing-Section-Ends-here */
  
+/* Footer */
+
+footer{
+    width: 100%;
+    margin: auto;
+}
+footer .countainer{
+	width: 100%;
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
+    padding-bottom: 2rem;
+    background: url(https://themebeyond.com/html/movflx/img/bg/footer_bg.jpg) center/cover no-repeat;
+
+}
+
+
 
 
 
