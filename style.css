@@ -26,7 +26,7 @@ header{
     justify-content: space-between;
     height: 5rem;
     align-items: center;
-    /* background: rebeccapurple; */
+    background: transparent;
 }
 header .logo img{
     height: 50px;
@@ -848,7 +848,7 @@ a{
     text-decoration: none;
 }
 body{
-    background-color: #18171f;
+    /* background-color: #18171f; */
     
 }
 .main{
@@ -856,6 +856,7 @@ body{
     flex-direction: column;
     /* gap: 3rem; */
 }
+
 
 /* Movie-hero-section-starts-here */
 .movie-hero{
