@@ -493,7 +493,6 @@ li{
         align-items: center;
         inset: 0 0 0 0 !important;
         transition: .5s;
-        /* display: none; */
         padding-bottom: 1.4rem;
         
     }
@@ -564,9 +563,7 @@ li{
 .humbarger i[data-visible="true"]{
     display: none;
 }
-    .inform h5{
-        text-align: center;
-    }
+ 
 }
 
 @media(max-width:768px){
