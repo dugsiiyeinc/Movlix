@@ -564,9 +564,7 @@ li{
 .humbarger i[data-visible="true"]{
     display: none;
 }
-    .inform h5{
-        text-align: center;
-    }
+ 
 }
 
 @media(max-width:768px){
