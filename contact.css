@@ -493,7 +493,6 @@ li{
         align-items: center;
         inset: 0 0 0 0 !important;
         transition: .5s;
-        /* display: none; */
         padding-bottom: 1.4rem;
         
     }
