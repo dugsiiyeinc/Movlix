@@ -102,6 +102,7 @@ header .desckotop-menu  div .select select{
     background:url(https://themebeyond.com/html/movflx/img/bg/breadcrumb_bg.jpg) center/cover no-repeat;
 }
 .hero-con{
+    height: 100%;
     background-color: rgba(0, 0, 0, 0.5);
 }
 
