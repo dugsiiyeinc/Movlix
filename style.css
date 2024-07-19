@@ -7,7 +7,7 @@
     box-sizing: border-box;
 }
 .container{
-    width: min(95%, 1200px);
+    width: min(95%, 1300px);
     margin:0 auto;
 }
 img{
@@ -585,6 +585,9 @@ header .desckotop-menu  div .select select{
 
 
 @media (max-width:990px){
+    .movies-poster .overlay-btn{
+        display: none !important;
+    }
   
     .div1 .left h1{
         font-size: 25px;
@@ -1639,7 +1642,7 @@ footer .countainer{
 
   .pricing-grid{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(2, 1fr);
     gap: 2rem;
     
   }
@@ -1649,16 +1652,16 @@ footer .countainer{
 
 @media(max-width:500px){
     .main{
-        display: flex;
-        flex-direction: column;
-        gap: 1rem;
+        /* display: flex; */
+        /* flex-direction: column; */
+        /* gap: 1rem; */
     }
     
     
     
     
     .movie-hero-bg{
-        padding: 170px 0 130px;
+        /* padding: 170px 0 130px; */
 
     }
     .movie-hero-content .movie-hero-title{
