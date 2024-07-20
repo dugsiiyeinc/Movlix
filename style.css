@@ -985,13 +985,14 @@ a{
     display: flex;
     justify-content: flex-end;
     flex-wrap: wrap;
+    
 }
  
 
 .movie-area-bg .tr-movie-menu-active{
     display: flex;
     align-items: center;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     /* justify-content: flex-end; */
     margin-bottom: 0;
 }
@@ -1610,10 +1611,10 @@ footer .countainer{
 /* Responsive  */
 
 
-@media(max-width:900px){
+/* @media(max-width:900px){
   .grid-items {
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 1rem;
     
     
@@ -1648,20 +1649,20 @@ footer .countainer{
   }
   
 
-}
+} */
 
-@media(max-width:500px){
+/* @media(max-width:500px){
     .main{
-        /* display: flex; */
-        /* flex-direction: column; */
-        /* gap: 1rem; */
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
     }
     
     
     
     
     .movie-hero-bg{
-        /* padding: 170px 0 130px; */
+        padding: 170px 0 130px;
 
     }
     .movie-hero-content .movie-hero-title{
@@ -1756,5 +1757,124 @@ footer .countainer{
     
   
 }
-   
+    */
 
+    @media(max-width:900px){
+        .grid-items{
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+        }
+      
+        .row{
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          gap: 1rem;
+       }
+       .mivie-page-meta{
+         width: 100%;
+       }
+       .section-title .sub-title{
+        text-align: center;
+      }
+      }
+      
+      @media(max-width:550px){
+          
+        .movie-area-bg .tr-movie-menu-active button{
+            font-size: 9px;
+             padding: 7px 16px;
+            
+        }
+      .custom-select{
+        font-size: 9px !important;
+        padding: 5px 16px !important;
+      }
+          
+          .row{
+             display: flex;
+             flex-direction: column;
+             align-items: center;
+             gap: 1rem;
+             /* width: 100%; */
+          }
+          
+        
+          
+          
+          .movie-hero-bg{
+              /* padding: 170px 0 130px; */
+      
+          }
+          .movie-hero-content .movie-hero-title{
+              font-size: 3rem;
+          }
+          
+         
+          
+          .movie-page-meta {
+              justify-content: center;
+              
+              
+            }
+            .section-title .sub-title{
+              text-align: center;
+            }
+            .section-title .title{
+              text-align: center;
+            }
+            .grid-items {
+              display: grid;
+              grid-template-columns: 1fr;
+              gap: 1rem;
+              
+              
+            }
+            .movies-poster img{
+              width: 100%;
+            }
+      
+            .pagination-wrap ul{
+              justify-content: center;
+              margin-inline: 20px;
+            }
+      
+            .news-letter-wrap {
+              padding: 55px 0px;
+            }
+           .news-letter-form .news-letter-form-input{
+              padding: 17px 30px;
+              padding-right: 30px;
+            }
+            .news-letter-form {
+              text-align: center;
+            }
+           
+            .news-letter-form .news-letter-btn{
+              position: initial;
+              margin-top: 15px;
+            }
+            .news-letter-content h4{
+              font-size: 35px;
+              text-align: center;
+            }
+            .news-letter-content p{
+              font-size: 15px;
+              text-align: center;
+      
+            }
+      
+            .pricing-bg{
+              padding: 170px 0 130px;
+            }
+            .pricing-grid{
+              display: grid;
+              grid-template-columns: 1fr;
+              gap: 2rem;
+              
+            }
+          
+        
+      }
+         
+      
