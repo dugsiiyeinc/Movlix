@@ -476,6 +476,7 @@ li{
         /* color: white; */
         font-size: 1.5rem;
         z-index: 1111;
+        cursor: pointer;
     }
     .humbarger i{
         color: white;
@@ -557,11 +558,11 @@ li{
         display: none;
  }
  .humbarger i[data-visible="false"]{
-    display: block;
+    display: none;
 }
 
 .humbarger i[data-visible="true"]{
-    display: none;
+    display: block;
 }
  
 }

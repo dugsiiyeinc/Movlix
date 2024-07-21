@@ -42,8 +42,8 @@
 
        <!-- humbarger -->
         <div class="humbarger">
-            <i class='bx bx-menu' data-visible="true"></i>
-            <i class='bx bx-x' data-visible="true"></i>
+            <i class='bx bx-menu menu-items' data-visible="true"></i>
+            <i class='bx bx-x menu-items' data-visible="false"></i>
         
         </div>
      
@@ -510,7 +510,7 @@
 <script>
     const hamburger = document.querySelector('.humbarger');
         const mobileMenu = document.querySelector(".mobile-menu");
-        const icons = document.querySelectorAll("i");
+        const icons = document.querySelectorAll(".menu-items");
 
         hamburger.addEventListener("click", function (event) {
             const isVisible = mobileMenu.getAttribute('data-visible');
