@@ -7,7 +7,7 @@
     box-sizing: border-box;
 }
 .container{
-    width: min(95%, 1300px);
+    width: min(95%, 1400px);
     margin:0 auto;
 }
 img{
